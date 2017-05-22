@@ -11,3 +11,11 @@ return((result.split('1')));
 countBits(2), 2;
 
 
+
+// this function will filter unwanted letters from string
+function songDecoder(song){
+  // ...
+
+  return song.split("WUB").filter(function(b){return b!==""}).join(" ");
+
+}
